@@ -1,0 +1,11 @@
+python-dotenv
+hypercorn
+quart
+telethon==1.21.1
+pyjwt
+databases
+asyncpg
+pytz
+marshmallow
+flask-limiter
+sentry_sdk
