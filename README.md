@@ -1,4 +1,15 @@
+# README
+
+## Preparation
+
 Create session string to use with `StringSession` and fill `.env` file with corresponding values.
+
+Without `StringSession` I have the following error while run inside docker:
+
+```log
+INFO:telethon.network.connection.connection:The server closed the connection
+WARNING:telethon.network.mtprotosender:Connection error 1 during auth_key gen: ConnectionError: Not connected
+```
 
 ## Run without docker
 
@@ -17,7 +28,7 @@ docker run telethon_test
 
 This option doesn't work:
 
-```
+```log
 ...
 INFO:telethon.network.mtprotosender:Connection closed while receiving data
 INFO:telethon.network.mtprotosender:Closing current connection to begin reconnect...
